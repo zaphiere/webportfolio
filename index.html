@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- CSS Bootstrap -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	<link rel="stylesheet" href="./style.css">
+
+	<!-- Font -->
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Akshar:wght@300&display=swap" rel="stylesheet">
+
+	<title>Creativity with Technology</title>
+</head>
+<body data-bs-spy="scroll" data-bs-target=".list-group " data-bs-offset="50">
+
+	<!-- Off Canvas Navbar -->
+	<nav class="navbar navbar-light bg-light fixed-top d-lg-none">
+	  <div class="container-fluid">
+	    <a class="navbar-brand" href="#"></a>
+	    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+	      <span class="navbar-toggler-icon"></span>
+	    </button>
+	    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+	      <div class="offcanvas-header bg-dark text-white py-1">
+	        <h5>Menu</h5>
+	        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+	      </div>
+	      <div class="offcanvas-body">
+	      	<section class="text-center">
+	      		<img class="rounded-circle border border-3 my-2" src="./images/logo-main.png">
+	      		<h2 class="my-2">Joquin Andrew</h2>
+	      		<p>Software Developer</p>
+	      	</section>
+	      	<div class="d-flex flex-row flex-wrap justify-content-center border-bottom border-3">
+	      		<div>
+	      			<a class="socmed" href="https://github.com/">
+	      				<img width="40" src="./images/social-github.png" alt="">
+	      			</a>
+	      		</div>
+	      		<div>
+	      			<a class="socmed" href="https://gitlab.com/zaphiere">
+	      				<img width="40" src="./images/social-gitlab.png" alt="">
+	      			</a>
+	      		</div>
+	      		<div>
+	      			<a class="socmed" href="https://www.facebook.com/profile.php?id=100013078021808">
+	      				<img width="40" src="./images/social-fb.png" alt="">
+	      			</a>
+	      		</div>
+	      		<div>
+	      			<a class="socmed" href="https://twitter.com/DCipher8">
+	      				<img width="40" src="./images/social-twit.png" alt="">
+	      			</a>
+	      		</div>
+	      		<div>
+	      			<a class="socmed" href="https://www.instagram.com/lazyweabooartist_v2.0/">
+	      				<img width="40" src="./images/social-ig.png" alt="">
+	      			</a>
+	      		</div>
+	      	</div>
+	        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+				<li class="nav-item">
+					<a class="list-group-item list-group-item-action " href="#MainPage">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="list-group-item list-group-item-action " href="#AboutSelf">About</a>
+				</li>
+				<li class="nav-item">
+					<a class="list-group-item list-group-item-action " href="#Project_Samples">Projects</a>
+				</li>
+				<li class="nav-item">
+					<a class="list-group-item list-group-item-action " href="#Contact_Us">Contacts</a>
+				</li>
+	        </ul>
+	      </div>
+	    </div>
+	  </div>
+	</nav>
+
+	<!-- Cutoff here -->
+	
+	<div class="container-fluid">
+		
+		<!-- Navbar large-->
+		<div class="row">
+			<div class=" col-lg-2  d-none d-sm-none d-md-none d-lg-block nav_set border-end border-3">
+				<nav class="sticky-top p-3 mx-3">
+					<section class="text-center">
+						<img class="rounded-circle border border-3 my-2" src="./images/logo-main.png">
+						<h2 class="my-2">Joquin Andrew</h2>
+						<p>Software Developer</p>
+					</section>
+					<div class="d-flex flex-row flex-wrap justify-content-center border-bottom border-3">
+						<div>
+							<a class="socmed" href="https://github.com/">
+								<img width="40" src="./images/social-github.png" alt="">
+							</a>
+						</div>
+						<div>
+							<a class="socmed" href="https://gitlab.com/zaphiere">
+								<img width="40" src="./images/social-gitlab.png" alt="">
+							</a>
+						</div>
+						<div>
+							<a class="socmed" href="https://www.facebook.com/profile.php?id=100013078021808">
+								<img width="40" src="./images/social-fb.png" alt="">
+							</a>
+						</div>
+						<div>
+							<a class="socmed" href="https://twitter.com/DCipher8">
+								<img width="40" src="./images/social-twit.png" alt="">
+							</a>
+						</div>
+						<div>
+							<a class="socmed" href="https://www.instagram.com/lazyweabooartist_v2.0/">
+								<img width="40" src="./images/social-ig.png" alt="">
+							</a>
+						</div>
+					</div>
+					<ul class="list-group nav flex-column my-2 disable">
+						<p class="bg-dark text-white my-3 px-1">Menu</p>
+						<li class="nav-item">
+							<a class="list-group-item list-group-item-action active " href="#MainPage">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="list-group-item list-group-item-action " href="#AboutSelf">About</a>
+						</li>
+						<li class="nav-item">
+							<a class="list-group-item list-group-item-action " href="#Project_Samples">Projects</a>
+						</li>
+						<li class="nav-item">
+							<a class="list-group-item list-group-item-action " href="#Contact_Us">Contacts</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+			<div class="col-12 col-lg">
+				<!-- Main Page -->
+				<div id="MainPage" class="content-margin-top row text-center min-vh-100 ">
+					<div id="MainPageText" class="col-12">
+						<h1>Merge Creativity</h1>
+						<h5>With Technology</h5>
+					</div>
+				</div>
+
+
+				<!-- About Self -->
+				<div id="AboutSelf" class="content-margin-top row p-4">
+					<h2>ABOUT ME</h2>
+					<div class="col-12 col-sm-12 col-md-6 col-lg-4">
+						<img class="about_me mb-3 img-fluid" src="./images/AboutMe.jpg">
+					</div>
+					<div class="col-12 col-sm-12 col-md-6 col-lg-8">
+						<h3>Background</h3>
+						<p class="inside_content">Hey guys im Andrew. 31 years of age. Im a freelance graphic artist/illustrator and aspiring Software Engineer trying to make my mark in this world. Used to work as an IT Support/Graphic Designer in the UAE. But now working my way towards a goal to be a Software Developer/Full Stack Developer. </p>
+						<div class="row">
+							<div class="mb-2 col-sm-12 col-md-6">
+								<h4 class="fw-bold">Professional History</h4>
+								<div class="mb-3 ps-4">
+									<h5>Freelance Illustrator</h5>
+									<h6>Jake Arts and Media (2020-2022)</h6>
+								</div>
+								<div class="mb-3 ps-4">
+									<h5>IT Support - Graphic Designer</h5>
+									<h6>Sugarbox-UAE (2013-2019)</h6>
+								</div>
+								<div class="mb-3 ps-4">
+									<h5>Graphic Designer/Webmaster</h5>
+									<h6>Regalweb/Dreamfil (2011-2012)</h6>
+								</div>
+							</div>
+							<div class="mb-2 col-sm-12 col-md-6">
+								<h4 class="fw-bold">Educational Background</h4>
+								<div class="ps-4">
+									<h5>Bachelor's Degree in Information Technology</h5>
+									<h6>West Visayas State University</h6>
+								</div>
+								<h4 class="fw-bold">Trainings</h4>
+								<div class="mb-3 ps-4">
+									<h5>Coding Bootcamp</h5>
+									<h6>ZUITT </h6>
+								</div>
+								<div class="mb-3 ps-4">
+									<h5>CCNA Course</h5>
+									<h6>SitePowers Training Institute </h6>
+								</div>
+							</div>
+						</div>
+					</div>	
+				</div>
+
+				<!-- Software Proficiencies -->
+				<div id="Skills" class="content-margin-top row p-4">
+					<div class="col-12">
+						<h3>Software Skills</h3>
+						<div class="justify-content-center border border-3">
+							<div class="d-flex flex-row flex-wrap justify-content-center text-center ">
+							  <figure>
+							  		<img class="socmed" width="150" src="images/logo-html5.png"/>
+							  		<h4>HTML5</h4>
+							  </figure>
+							  <figure>
+							  		<img class="socmed" width="150" src="images/logo-CSS3.png"/>
+							  		<h4>CSS3</h4>
+							  </figure>
+							  <figure>
+							  		<img class="socmed" width="150" src="images/logo-js.png"/>
+							  		<h4>Javascript</h4>
+							  </figure>
+							  <figure>
+							  		<img class="socmed" width="150" src="images/logo-bootstrap.png"/>
+							  		<h4>Bootstrap</h4>
+							  </figure>
+							  <figure>
+							  		<img class="socmed" width="150" src="images/logo-git.png"/>
+							  		<h4>Git</h4>
+							  </figure>
+							  <figure>
+							  		<img class="socmed" width="150" src="images/logo-gitlab.png"/>
+							  		<h4>Gitlab</h4>
+							  </figure>
+							  <figure>
+							  		<img class="socmed" width="150" src="images/logo-subl.png"/>
+							  		<h4>Sublime</h4>
+							  </figure>
+							  <figure>
+							  		<img class="socmed" width="150" src="images/logo-ps.png"/>
+							  		<h4>Photoshop</h4>
+							  </figure>
+							  <figure>
+							  		<img class="socmed" width="150" src="images/logo-paintool.png"/>
+							  		<h4>PaintoolSai</h4>
+							  </figure>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Project Samples -->
+				<div id="Project_Samples" class="content-margin-top row p-4">
+					<h2>PROJECTS</h2>
+					<div class="col-12 col-sm-12 col-md-6 col-lg-6 mb-4">
+						<img class="img-fluid" src="./images/project_1.jpg">
+					</div>
+					<div class="col-12 col-sm-12 col-md-6 col-lg-6 mb-4">
+						<h3>Project 1</h3>
+						<p>First capstone project made during the bootcamp training course with Zuitt. Front End Website-Portfolio designed using HTML, CSS, and Bootstrap.</p>
+					</div>
+					<div class="col-12 col-sm-12 col-md-6 col-lg-6 mb-4 order-md-2 ">
+						<img class="img-fluid" src="./images/placeholder_1.jpg">
+					</div>
+					<div class="col-12 col-sm-12 col-md-6 col-lg-6 mb-4 order-md-1 ">
+						<h3 class="text-md-end">Project 2</h3>
+						<p class="text-md-end">This space is reserved for the second capstone project. Will be updated as soon as the project is finished. for the mean time it remains an empty space.</p>
+					</div>
+					<div class="col-12 col-sm-12 col-md-6 col-lg-6 mb-4 order-md-3">
+						<img class="img-fluid d.flex" src="./images/placeholder_1.jpg">
+					</div>
+					<div class="col-12 col-sm-12 col-md-6 col-lg-6 mb-4 order-md-4">
+						<h3>Project 3</h3>
+						<p>This space is reserved for the third capstone project. Will be updated as soon as the project is finished. for the mean time it remains an empty space.</p>
+					</div>
+				</div>
+
+				<!-- Artwork Gallery -->
+				<div id="Artwork Projects" class="content-margin-top row p-4">
+					<h2>Artworks</h2>
+					<!-- Gallery Codes -->
+					<div class="row_gal d-none d-sm-none d-md-block">
+					  <div class="column_gal">
+					    <img src="./images/gallery-slider-1.jpg" alt=""  onclick="myFunction(this);">
+					  </div>
+					  <div class="column_gal">
+					    <img src="./images/gallery-slider-2.jpg" alt=""  onclick="myFunction(this);">
+					  </div>
+					  <div class="column_gal">
+					    <img src="./images/gallery-slider-3.jpg" alt=""  onclick="myFunction(this);">
+					  </div>
+					  <div class="column_gal">
+					    <img src="./images/gallery-slider-4.jpg" alt=""  onclick="myFunction(this);">
+					  </div>
+					</div>
+
+					<div class="container_gal">
+					  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+					  <img id="expandedImg">
+					  <div id="imgtext"></div>
+					</div>
+					<script src="gallery.js"></script>
+					<!-- Gallery Code End -->
+
+					<!-- Small Slider Gallery  -->
+					<div id="carouselExampleIndicators" class="carousel slide d-md-none" data-bs-ride="carousel">
+					  <div class="carousel-indicators">
+					    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+					    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+					    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+					    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+					  </div>
+					  <div class="carousel-inner">
+					    <div class="carousel-item active">
+					      <img src="./images/gallery-slider-1.jpg" class="d-block w-100" alt="...">
+					    </div>
+					    <div class="carousel-item">
+					      <img src="./images/gallery-slider-2.jpg" class="d-block w-100" alt="...">
+					    </div>
+					    <div class="carousel-item">
+					      <img src="./images/gallery-slider-3.jpg" class="d-block w-100" alt="...">
+					    </div>
+					    <div class="carousel-item">
+					      <img src="./images/gallery-slider-4.jpg" class="d-block w-100" alt="...">
+					    </div>
+					  </div>
+					  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+					    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					    <span class="visually-hidden">Previous</span>
+					  </button>
+					  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+					    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+					    <span class="visually-hidden">Next</span>
+					  </button>
+					</div>
+					<!-- Small Slider Code End -->
+
+				</div>
+
+				<!-- Contact Us -->
+				<div id="Contact_Us" class="content-margin-top row p-4">
+					<h2>CONTACTS</h2>
+					<div class="col-12 col-sm-12 col-md-6 order-2 order-sm-2 order-md-5 col-lg-6">
+						<div class="row border-bottom border-3 mb-2">
+							<div class="col-2 contact_icon">
+								<img  width="55" src="images/icon-location.png"/>
+							</div>
+							<div class="col-9 col-xl-10">
+								<h5>Address</h5>
+								<p>Hibao-an, Pavia Iloilo City</p>
+							</div>
+							<div class="col-2 contact_icon">
+								<img  width="55" src="images/icon-email.png"/>
+							</div>
+							<div class="col-9 col-xl-10">
+								<h5>Email Address:</h5>
+								<p>joquin.deguzman@gmail.com</p>
+							</div>
+							<div class="col-2 contact_icon">
+								<img  width="55" src="images/icon-phone.png"/>
+							</div>
+							<div class="col-9 col-xl-10">
+								<h5>Contact no:</h5>
+								<p>+63 968 6927954</p>
+							</div>
+						</div>
+						<form class="mb-4">
+							<h4>For Inquiries</h4>
+							<div class="form-group mb-2">
+								<label for="InName">Your Name</label>
+								<input type="text" class="form-control" id="InName" name="InName">
+							</div>
+							<div class="form-group mb-2">
+								<label for="InEmail"Email>Your Email Address</label>
+								<input type="Email" class="form-control" id="InEmail"  name="InEmail">
+							</div>
+							<div class="form-group mb-2">
+								<label for="InSubj">Subject</label>
+								<input type="text" class="form-control" id="InSubj" name="InName">
+							</div>
+							<div class="form-group mb-2">
+								<label for="InMessage">Message</label>
+								<textarea class="form-control" id="InMessage" rows="7"></textarea>
+							</div>
+							<button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">
+							  Send Message
+							</button>
+						</form>
+					</div>
+					<!-- Map -->
+					<div class="col-12 col-sm-12 col-md-6 order-1 order-sm-1 order-md-6 col-lg-6 mb-2">
+						<iframe class="w-100 map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.7508412878683!2d122.50873531474869!3d10.753675992336948!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33aefb14b1b1c127%3A0x6a3830bb00439052!2sEON%20Centennial%20Homes!5e0!3m2!1sen!2sph!4v1650330262872!5m2!1sen!2sph" width="500" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>	
+					</div>	
+				</div>
+				<!-- Modal -->
+				<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+				  <div class="modal-dialog">
+				    <div class="modal-content">
+				      <div class="modal-header">
+				        <h5 class="modal-title" id="exampleModalLabel">Message Sent</h5>
+				        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+				      </div>
+				      <div class="modal-body">
+				      		<p>Thank you for messaging! I'll respond to your message as soon as I can</p>
+				      </div>
+				      <div class="modal-footer">
+				        <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Close</button>
+				      </div>
+				    </div>
+				  </div>
+				</div>
+
+				<!-- Footer -->
+				<div class="row bg-dark">
+					<div class="col-12 p-4">
+						<p class="text-end text-secondary mb-0 me-3">© Copyright 2022 Joquin Andrew De Guzman | All Rights Reserved</p>
+					</div>
+				</div>	
+			</div>	
+		</div>
+	<div>
+
+
+<!-- JS Bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
+</body>
+</html>

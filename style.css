@@ -1,0 +1,182 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;	
+	font-family: 'Akshar', sans-serif;
+}
+
+h3{
+	color: white;
+	background-color: black;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+#MainPage{
+	background-image: url("./images/bg-size2.jpg");
+	background-position: right;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	position: relative;
+}
+#MainPageText{
+	text-align: center;
+	position: absolute;
+	top: 40%;
+	left: 30%;
+	transform: translate(-50%, -50%);
+	color: black;
+}
+
+.inside_content{
+	text-align: justify;
+}
+
+.nav_set{
+    width: 300px;
+    background-color: #f4f4f4
+}
+
+.socmed:hover {
+	opacity: 30%;
+
+}
+
+.contact_icon{
+	width: 60px;
+}
+
+#AboutSelf{
+	background-color: #e2e2e2;
+}
+#Project_Samples{
+	background-color: #e2e2e2;
+}
+#Contact_Us{
+	background-color: #e2e2e2;
+}
+.list-group-item.active{
+	background-color: grey;
+	color: white;
+	border-color: transparent;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 20px;
+
+
+}
+.list-group-item{
+	background-color: transparent;
+	color: black;
+	border-color: transparent;
+	padding-left: 0px;
+}
+
+@media (max-width: 576px){
+
+	#MainPage{
+		background-image: url("./images/bg-size3.jpg");
+		background-position: right;
+		background-repeat: no-repeat;
+		background-size: 100%;
+		position: relative;
+	}
+	#MainPageText{
+		text-align: center;
+		position: absolute;
+		top: 39%;
+		left: 35%;
+		transform: translate(-50%, -50%);
+		color: black;
+	}
+	.map{
+		height: 300px;
+	}
+}
+
+@media (max-width:765px ){
+
+	figure > img{
+		width: 110px;
+	}
+	.about_me
+	{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.offcanvas{
+		width: 75%;
+	}
+
+}
+@media (max-width:768px) {
+	#AboutSelf{
+		scroll-margin-top: 50px;
+	}
+	#Project_Samples{
+		scroll-margin-top: 50px;
+	}
+	#Contact_Us{
+		scroll-margin-top: 50px;
+	}
+
+}
+@media (max-width: 992px){
+
+	.content-margin-top
+	{
+		padding-top: 50px;
+	}
+}
+
+/*gallery CSS*/
+.column_gal {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+
+
+.column_gal img {
+  opacity: 0.8; 
+  cursor: pointer;
+  width: 100%; 
+}
+
+.column_gal img:hover {
+  opacity: 1;
+}
+
+.row_gal:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container_gal {
+  position: relative;
+  display: none;
+}
+
+.container_gal img {
+  width: 100%;
+}
+
+
+#imgtext {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
